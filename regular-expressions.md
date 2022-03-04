@@ -214,6 +214,10 @@ Sets of characters:
 - `\w` = `[A-Za-z0-9_]`
 - `\W` = `[^A-Za-z0-9_]`
 
+### Generator
+
+https://codepen.io/dizys/pen/WNXPRQR
+
 ## Finite State Automata
 
 Devices for recognizing finite state grammars (include regexps)
