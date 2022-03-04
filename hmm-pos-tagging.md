@@ -6,5 +6,11 @@ description: >-
 
 # HMM POS Tagging
 
+## POS Tagger Tool
+
 {% embed url="https://codepen.io/dizys/pen/XWzOpyO" %} POS Tagger Tool
+{% endembed %}
+
+
+{% embed url="https://dizy.cc" %} Test POS Tagger Tool
 {% endembed %}
