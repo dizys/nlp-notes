@@ -1,6 +1,6 @@
 ---
-description: Information Retrieval and Related Applications. TF/IDF, Cosine Similarity.
+description:
+  Information Retrieval and Related Applications. TF/IDF, Cosine Similarity.
 ---
 
 # Information Retrieval
-
