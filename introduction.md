@@ -108,7 +108,7 @@ BC
 
 In 21st Century CL, semantic role labeling is popular
 
-![Semantic Role Labeling](<.gitbook/assets/image (2).png>)
+![Semantic Role Labeling](.gitbook/assets/semantic-role-lableing.png)
 
 ### Anaphora
 
@@ -128,7 +128,7 @@ Other Varieties
 
 Adverbs, Subordinate/Coordinate, Conjunctions, among other words link clauses
 
-![Discourse Argument Structure](<.gitbook/assets/image (1).png>)
+![Discourse Argument Structure](.gitbook/assets/discourse-argument-structure.png)
 
 ### Semantic Parsing (e.g. GLARF)
 
@@ -146,7 +146,7 @@ A representation of the sentence:
 - `Afterwards, she decided to perform the operation.`&#x20;
 - When it occurs after the sentence: `The doctor ran some tests`
 
-![GLARF Example](.gitbook/assets/image.png)
+![GLARF Example](.gitbook/assets/glarf-example.png)
 
 ## Role of Manual Annotation
 
