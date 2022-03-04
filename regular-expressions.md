@@ -4,6 +4,10 @@ description: Formal Languages, Regular Expressions, Automata and Transducers
 
 # Regular Expressions
 
+Useful links:
+
+- [RegEx online validation tool](https://tool.chinaz.com/regex/) (Chinese)
+
 ## Formal Language = Set of Strings of Symbols
 
 A Formal Language can model a phenomenon, e.g. written English
