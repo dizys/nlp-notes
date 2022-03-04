@@ -10,7 +10,3 @@ description: >-
 
 {% embed url="https://codepen.io/dizys/pen/XWzOpyO" %} POS Tagger Tool
 {% endembed %}
-
-
-{% embed url="https://dizy.cc" %} Test POS Tagger Tool
-{% endembed %}
