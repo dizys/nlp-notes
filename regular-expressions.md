@@ -72,6 +72,7 @@ algorithm.
   non-terminal
 
 Example Rule from linguistics:
+
 ![Context-free Rules](.gitbook/assets/chomsky-hierarchy-type-2.png)
 
 ### Type 3: Context-free rules with restrictions
