@@ -33,3 +33,14 @@ $$Step\_Prob(TokenA, TagA) = max[Step\_Prob(Last\_Token, TagX) * Trans\_Prob(Tag
 #### Transition Probability
 
 ![Transition Probability for "Fish sleep."](.gitbook/assets/hmm-viterbi-example-trans-probs.png)
+
+#### Emission Probability
+
+$$Emis\_Prob(fish, noun)={8\over{8+2}}=0.8$$
+$$Emis\_Prob(fish, verb)={5\over{5+5}}=0.5$$
+$$Emis\_Prob(sleep, noun)={2\over{8+2}}=0.2$$
+$$Emis\_Prob(sleep, verb)={5\over{5+5}}=0.5$$
+
+#### Steps
+
+![Steps result for "Fish sleep."](.gitbook/assets/hmm-viterbi-example-steps.png)
