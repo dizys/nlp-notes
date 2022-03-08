@@ -29,10 +29,12 @@ description: >-
 | **NNS**  | Noun, plural 名次复数                   | books, cars    | **VBZ** | Verb, 3rd person 动词三单          | eats             |
 | **NNP**  | Proper noun, singular 专有名词单数      | Edinburgh      | **WDT** | Wh-determiner Wh-限定词            | which            |
 | **NNPS** | Proper noun, plural 专有名次复数        | Smiths         | **WP**  | Wh-pronoun Wh-代词                 | who              |
-| **PDT**  | Predeterminer 前置限定词                | all, both      | **WP**$ | Possessive wh-pron. Wh-物主代词    | whose            |
+| **PDT**  | Predeterminer 前置限定词                | all, both      | **WP$** | Possessive wh-pron. Wh-物主代词    | whose            |
 | **POS**  | Possessive ending 所有格后缀            | 's             | **WRB** | Wh-adverb Wh-副词                  | how              |
 | **PRP**  | Personal pronoun 人称代词               | I, you, he     | **PU**  | Punctuation 标点                   | ",", "."         |
-| **PRP**$ | Possessive pronoun 物主代词             | my, your, his  |
+| **PRP$** | Possessive pronoun 物主代词             | my, your, his  |
+
+![Penn Treebank POS Tags](.gitbook/assets/penn-treebank-tags.png)
 
 ## HMM Viterbi Algorithm
 
