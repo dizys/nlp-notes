@@ -67,7 +67,7 @@ Example: `count(the -> same -> as -> an) / count(the -> same -> as)`
 
 ### N-gram Probability
 
-$$fourgram(t, t_{-1}, ..., t_{-n+1})={Count({t_{-n+1}}\rightarrow{...}\rightarrow{t_{-1}}\rightarrow{t})\over{Count({t_{-n+1}}\rightarrow{...}\rightarrow{t_{-1}})}}$$
+$$ngram(t, t_{-1}, ..., t_{-n+1})={Count({t_{-n+1}}\rightarrow{...}\rightarrow{t_{-1}}\rightarrow{t})\over{Count({t_{-n+1}}\rightarrow{...}\rightarrow{t_{-1}})}}$$
 
 ### Markov Assumptions
 
