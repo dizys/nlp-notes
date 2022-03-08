@@ -165,11 +165,12 @@ Used to create answer keys to score system output.
 
 - One set of measures are: recall, precision and f-score:
 
-&#x20; $$Recall={{\lvert Correct \rvert}\over{\lvert Answer\_Key \rvert}}$$
+$$Recall={{\lvert Correct \rvert}\over{\lvert Answer\_Key \rvert}}$$
+
 $$Precision={{\lvert Correct \rvert}\over{\lvert System\_Output \rvert}}$$
 
 $$
-F\_Score={1\over{{1\over2}*({1\over{Precision}}+{1\over{Recall}})}}
+F\_Score={1\over{{1\over2}*({1\over{Precision}}+{1\over{Recall}})}}={2{{Precision}*{Recall}\over{Precision+Recall}}}
 $$
 
 ### Manual Annotation in Supervised Statistical ML

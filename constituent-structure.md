@@ -76,3 +76,5 @@ Trigram Model: probability of a word depends only on the previous two words.
 N-gram Model: probability of a word depends only on the previous N-1 words.
 
 Probability of a sentence = Product of probabilities of each word.
+
+## CKY
