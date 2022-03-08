@@ -12,6 +12,10 @@ Probability of each token chosen randomly (and independently of other tokens)
 
 $$unigram(t) = {Count(times\ t\ appearing)\over{Count(total\ word\ appearings)}} $$
 
+### Markov Assumption
+
+Probability of each token chosen randomly (and independently of other tokens)
+
 ## bigram
 
 Probability of a token given the previous token
@@ -43,6 +47,10 @@ If a bigram has a zero count, "backoff" (use) the unigram of the word.
 That is to replace `bigram(current_word, previous_word)` with
 `unigram(current_word)`.
 
+### Markov Assumption
+
+Probability of a word depends only on the previous word.
+
 ## Trigrams, 4-grams, N-grams
 
 ### Trigram Probability
@@ -60,3 +68,11 @@ Example: `count(the -> same -> as -> an) / count(the -> same -> as)`
 ### N-gram Probability
 
 $$fourgram(t, t_{-1}, ..., t_{-n+1})={Count({t_{-n+1}}\rightarrow{...}\rightarrow{t_{-1}}\rightarrow{t})\over{Count({t_{-n+1}}\rightarrow{...}\rightarrow{t_{-1}})}}$$
+
+### Markov Assumptions
+
+Trigram Model: probability of a word depends only on the previous two words.
+
+N-gram Model: probability of a word depends only on the previous N-1 words.
+
+Probability of a sentence = Product of probabilities of each word.
