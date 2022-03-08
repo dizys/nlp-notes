@@ -36,6 +36,16 @@ description: >-
 
 ![Penn Treebank POS Tags](.gitbook/assets/penn-treebank-tags.png)
 
+#### SBAR
+
+Clause introduced by a (possibly empty) subordinating conjunction.
+
+Examples:
+
+1. [**S** I can't believe [**SBAR** that John went without me.]]
+
+2. [S I can't believe [**SBAR** __ John went without me.]]
+
 ## HMM Viterbi Algorithm
 
 ### Training States
