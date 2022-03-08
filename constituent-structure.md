@@ -77,4 +77,11 @@ N-gram Model: probability of a word depends only on the previous N-1 words.
 
 Probability of a sentence = Product of probabilities of each word.
 
-## CKY
+## Noun Phrases and Noun Groups
+
+Both can have left modifiers. Only noun phrases can have right modifiers.
+
+- A noun group consists of: left modifiers of the head noun and the head noun
+
+- We will assume that all punctuation and coordinate conjunctions are outside of
+  a noun group

@@ -44,7 +44,7 @@ Examples:
 
 1. [**S** I can't believe [**SBAR** that John went without me.]]
 
-2. [S I can't believe [**SBAR** __ John went without me.]]
+2. [**S** I can't believe [**SBAR** __ John went without me.]]
 
 ## HMM Viterbi Algorithm
 
