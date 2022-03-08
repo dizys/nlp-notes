@@ -13,27 +13,26 @@ description: >-
 
 ## Penn Treebank POS Tag Set
 
-| Tag  | Description              | Examples       | Tag | Description         | Examples         |
-| ---- | ------------------------ | -------------- | --- | ------------------- | ---------------- |
-| CC   | Coordinating conjunction | and, or        | RB  | Adverb              | very             |
-| CD   | Cardinal number          | one, 2         | RBR | Adverb, comparative | better           |
-| DT   | Determiner               | the, a         | RBS | Adverb, superlative | best             |
-| EX   | Existential there        | there          | RP  | Particle            | out              |
-| FW   | Foreign word             | 单词           | SYM | Symbol              | %                |
-| IN   | Preposition or subord.   | of, in, with   | TO  | Infinitival marker  | to               |
-| JJ   | Adjective                | big, nice      | UH  | Interjection        | um, ah, oh, oops |
-| JJR  | Adjective, comparative   | bigger, better | VB  | Verb, base form     | go               |
-| JJS  | Adjective, superlative   | biggest, best  | VBD | Verb, past form     | went             |
-| LS   | List item marker         | 1, 2, 3        | VBG | Verb, gerund form   | running          |
-| MD   | Modal                    | can, should    | VBN | Verb, past part     | ran              |
-| NN   | Noun, singular or mass   | book, car      | VBP | Verb, present       | eat              |
-| NNS  | Noun, plural             | books, cars    | VBZ | Verb, 3rd person    | eats             |
-| NNP  | Proper noun, singular    | Edinburgh      | WDT | Wh-determiner       | which            |
-| NNPS | Proper noun, plural      | Smiths         | WP  | Wh-pronoun          | who              |
-| PDT  | Predeterminer            | all, both      | WP$ | Possessive wh-pron. | whose            |
-| POS  | Possessive ending        | 's             | WRB | Wh-adverb           | how              |
-| PRP  | Personal pronoun         | I, you, he     | PU  | Punctuation         | ",", "."         |
-| PRP$ | Possessive pronoun       | my, your, his  |
+| Tag      | Description                             | Examples       | Tag     | Description                        | Examples         |
+| -------- | --------------------------------------- | -------------- | ------- | ---------------------------------- | ---------------- |
+| **CC**   | Coordinating conjunction 并列连词       | and, or        | **RB**  | Adverb 副词                        | very             |
+| **CD**   | Cardinal number 数                      | one, 2         | **RBR** | Adverb, comparative 副词比较级     | better           |
+| **DT**   | Determiner 限定词                       | the, a         | **RBS** | Adverb, superlative 副词最高级     | best             |
+| **FW**   | Foreign word 外来词                     | 单词           | **SYM** | Symbol 符号                        | %                |
+| **IN**   | Preposition or subord. 介词或从属连词   | of, in, with   | **TO**  | Infinitival marker 不定式标记      | to               |
+| **JJ**   | Adjective 形容词                        | big, nice      | **UH**  | Interjection 感叹词                | um, ah, oh, oops |
+| **JJR**  | Adjective, comparative 形容词比较级     | bigger, better | **VB**  | Verb, base form 动词原形           | go               |
+| **JJS**  | Adjective, superlative 形容词最高级     | biggest, best  | **VBD** | Verb, past form 动词过去式 ed      | went             |
+| **LS**   | List item marker 列表头标               | 1, 2, 3        | **VBG** | Verb, gerund form 动词现在分词 ing | running          |
+| **MD**   | Modal 情景动词                          | can, should    | **VBN** | Verb, past part 动词过去分词       | ran              |
+| **NN**   | Noun, singular or mass 名词单数或不可数 | book, car      | **VBP** | Verb, present 动词现在时           | eat              |
+| **NNS**  | Noun, plural 名次复数                   | books, cars    | **VBZ** | Verb, 3rd person 动词三单          | eats             |
+| **NNP**  | Proper noun, singular 专有名词单数      | Edinburgh      | **WDT** | Wh-determiner Wh-限定词            | which            |
+| **NNPS** | Proper noun, plural 专有名次复数        | Smiths         | **WP**  | Wh-pronoun Wh-代词                 | who              |
+| **PDT**  | Predeterminer 前置限定词                | all, both      | **WP**$ | Possessive wh-pron. Wh-物主代词    | whose            |
+| **POS**  | Possessive ending 所有格后缀            | 's             | **WRB** | Wh-adverb Wh-副词                  | how              |
+| **PRP**  | Personal pronoun 人称代词               | I, you, he     | **PU**  | Punctuation 标点                   | ",", "."         |
+| **PRP**$ | Possessive pronoun 物主代词             | my, your, his  |
 
 ## HMM Viterbi Algorithm
 
