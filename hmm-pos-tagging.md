@@ -11,6 +11,30 @@ description: >-
 {% embed url="https://codepen.io/dizys/pen/XWzOpyO" %} POS Tagger Tool
 {% endembed %}
 
+## Penn Treebank POS Tag Set
+
+| Tag  | Description              | Examples       | Tag | Description         | Examples         |
+| ---- | ------------------------ | -------------- | --- | ------------------- | ---------------- |
+| CC   | Coordinating conjunction | and, or        | RB  | Adverb              | very             |
+| CD   | Cardinal number          | one, 2         | RBR | Adverb, comparative | better           |
+| DT   | Determiner               | the, a         | RBS | Adverb, superlative | best             |
+| EX   | Existential there        | there          | RP  | Particle            | out              |
+| FW   | Foreign word             | 单词           | SYM | Symbol              | %                |
+| IN   | Preposition or subord.   | of, in, with   | TO  | Infinitival marker  | to               |
+| JJ   | Adjective                | big, nice      | UH  | Interjection        | um, ah, oh, oops |
+| JJR  | Adjective, comparative   | bigger, better | VB  | Verb, base form     | go               |
+| JJS  | Adjective, superlative   | biggest, best  | VBD | Verb, past form     | went             |
+| LS   | List item marker         | 1, 2, 3        | VBG | Verb, gerund form   | running          |
+| MD   | Modal                    | can, should    | VBN | Verb, past part     | ran              |
+| NN   | Noun, singular or mass   | book, car      | VBP | Verb, present       | eat              |
+| NNS  | Noun, plural             | books, cars    | VBZ | Verb, 3rd person    | eats             |
+| NNP  | Proper noun, singular    | Edinburgh      | WDT | Wh-determiner       | which            |
+| NNPS | Proper noun, plural      | Smiths         | WP  | Wh-pronoun          | who              |
+| PDT  | Predeterminer            | all, both      | WP$ | Possessive wh-pron. | whose            |
+| POS  | Possessive ending        | 's             | WRB | Wh-adverb           | how              |
+| PRP  | Personal pronoun         | I, you, he     | PU  | Punctuation         | ",", "."         |
+| PRP$ | Possessive pronoun       | my, your, his  |
+
 ## HMM Viterbi Algorithm
 
 ### Training States
